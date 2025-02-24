@@ -1,0 +1,6 @@
+/work/build/CMakeFiles/edit_cache.dir
+/work/build/CMakeFiles/rebuild_cache.dir
+/work/build/src/CMakeFiles/hw2_1.dir
+/work/build/src/CMakeFiles/hw2_2.dir
+/work/build/src/CMakeFiles/edit_cache.dir
+/work/build/src/CMakeFiles/rebuild_cache.dir
