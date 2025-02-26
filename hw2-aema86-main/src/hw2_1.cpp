@@ -108,7 +108,7 @@ int main(int argc, char** argv){
 
     // set the range to evaluate the integral
     double x_c = ((inputalpha * inputX_A) + (inputbeta * inputX_B))/(inputalpha + inputbeta);
-    double adjusted_sd = (50/sqrt(2.0*(inputalpha + inputbeta))) * (1 + (inputl_A + inputl_B)/10.0); // standard deviation (x6) around the center of the product gaussian adjusted to scale on l_A and l_B
+    double adjusted_sd = (50/sqrt(2.0*(inputalpha + inputbeta))) * (1 + (inputl_A + inputl_B)/10.0); // standard deviation (x50) around the center of the product gaussian adjusted to scale on l_A and l_B
     double lower = x_c - adjusted_sd;
     double upper = x_c + adjusted_sd;
     std::cout << "lower bound: " << lower << std::endl;
